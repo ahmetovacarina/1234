@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elaz Media Service</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="main.js"></script>
+    <script src="fileInput.js"></script>
+    <script src="players/player1.js" type="text/javascript"></script>
+    <script src="players/player2.js" type="text/javascript"></script>
+    <script src="players/player3.js" type="text/javascript"></script>
+    <script src="players/player4.js" type="text/javascript"></script>
+    <script src="players/player5.js" type="text/javascript"></script>
+    <script src="players/player6.js" type="text/javascript"></script>
+    <script src="players/player7.js" type="text/javascript"></script>
+    <script src="players/player8.js" type="text/javascript"></script>
+    <script src="players/player9.js" type="text/javascript"></script>
+    <script src="players/player10.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>ЕлАЗ медиа хостинг</h1>
+        <button id="addPlayer">Добавить видеоплеер</button>
+    </div>
+    <div id="playersContainer">
+        <!-- Видеоплееры динамические -->
+    </div>
+    <div id="playersInfo">
+    <!-- Информация о видеоплеерах -->
+    </div>
+    <div id="videoPlayer">
+        <video controls id="videoElement"></video>
+    </div>
+
+    <div id="videoUploader">
+        <input type="file" id="fileInput" accept="video/*">
+        <button id="uploadButton">Загрузить видео</button>
+    </div>
+
+</body>
+</html>
